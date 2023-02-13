@@ -1,0 +1,56 @@
+#container{
+    font-family:fantasy;
+}
+#content{
+    display: flex;
+}
+#name{
+    display: flex;
+  
+    justify-content: center;
+}
+#info{
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0px;
+    background-color: bisque;
+}
+nav ul{
+    /* display: flex; */
+    /* flex-direction: row; */
+    text-align: center ;
+    box-sizing: border-box;
+    list-style-type: none;
+    justify-content:space-around ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    box-shadow: 0 0 0 20px  white;
+    
+    
+}
+nav{
+    background-color: black;
+    padding: 10px;
+}
+img{
+    width: 850px;
+}
+#colOne{
+    width: 850;
+    /* float: left; */
+}
+#colTwo{
+    width: 100%;
+    padding-left: 2px;
+    /* float: left; */
+}
